@@ -10,6 +10,13 @@ Upon cloning this repo, please...
 2. Obtain the secret keys used in calling the API from Orcasound representatives for development.
 3. Add those keys to the environment secret file as described by [the dotenv NPM package](https://www.npmjs.com/package/dotenv).
 
+## Special Note:
+
+because of create react app, and the dev's preference for scss, this project requries a version of node-sass lower than 5.0.0, due to the version of sass-loader used by CRA at install. be wary of bugs caused by flippantly updating npm across the board.
+
+
+=================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
