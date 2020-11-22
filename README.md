@@ -1,8 +1,14 @@
 # orcamap-react-plainbuild
 
-this is a plain build of orcamap-react with a naked IDE.
+This is a plain build of orcamap-react with a naked IDE.
 
-## Getting Started with Create React App
+## Installation
+
+Upon cloning this repo, please...
+
+1. npm i (to install the latest node module packages).
+2. Obtain the secret keys used in calling the API from Orcasound representatives for development.
+3. Add those keys to the environment secret file as described by [the dotenv NPM package](https://www.npmjs.com/package/dotenv).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,7 +22,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You will also see any basic lint errors in the console.
 
 #### `npm test`
 
